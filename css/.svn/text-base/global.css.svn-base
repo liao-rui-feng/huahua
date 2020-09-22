@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333333;
+}
+/* 版心 */
+.lg-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom:1 ;
+}
+/* a标签下划线 */
+a{
+    text-decoration: none;
+}
+
+/* 搜索框 */
+.outline {
+    outline:none;
+}
+
+/* 边框 */
+.noborder{
+    border:none;
+}
+
+/* ul默认属性 */
+ul{
+    list-style:none;
+}
+
+
+/* 字体 */
+.ft16{
+    font-size:16px;
+}
+
+
+.ft24{
+    font-size:24px;
+}
+
+.ft18{
+    font-size:18px;
+}
+
+.ft28{
+    font-size:28px;
+}
+
+.ft22{
+    font-size:22px;
+}
+
+.ft0{
+    font-size:0px;
+}
+
+.ft30{
+    font-size:30px;
+}
+/* 字体颜色 */
+
+.cor333{
+    color:#333333;
+}
+
+.corred{
+    color:red;
+}
+
+.corb3{
+    color:#b3b3b3;
+}
+
+.cor80{
+    color:#808080;
+}
+
+.cor4d{
+    color:#4d4d4d;
+}
+
+.corfff{
+    color:#fff;
+}
+
+.corc0{
+    color:#c0c0c0;
+}
+
+.cor666{
+    color:#666; 
+}
+
+.cora6{
+    color:#a6a6a6;
+}
+
+.corf60{
+    color:#f60;
+}
+/* 下划线 */
+.line_through{
+    text-decoration:line-through
+}
+
+/* 文本居中 */
+.tcenter{
+    text-align:center;
+}
+
+.disno{
+    display:none;
+}
+.w428{
+    width:428px;
+}
+
+.h340{
+    height:340px;
+}
+
+.h161{
+    height:159px;
+}
+
+.h570{
+    height:570px;
+}
+
+
+.mt36{
+    margin-top:36px;
+}
+
+.w148{
+    width:148px;
+}
+
+.mr25{
+    margin-right:25px;
+}
+.ml45{
+    margin-left:45px;
+}
+.mgcenter{
+    margin:0 auto;
+}
+
+.mb48{
+    margin-bottom:48px;
+}
+
+
+a{
+    color:#333333;
+}
+
+/* 背景颜色 */
+
+.bgf60{
+    background-color: #f60;
+}
+
+/* 图片三像素 */
+.vertical{
+    vertical-align:top;
+}
+

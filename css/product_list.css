@@ -1,0 +1,290 @@
+/* banner样式 */
+#banner{
+    height:520px;
+}
+
+/* 图书折扣样式 */
+
+#sale{
+    margin-top:25px;
+}
+.sale_title{
+    border-bottom:6px solid #f60;
+    
+}
+
+.sale_title p{
+    width:220px;
+    height:47px;
+    line-height:47px;
+}
+
+.sale_box{
+    width:1200px;
+}
+.sale_box div{
+    float:left;
+    width:240px;
+    height:258px; 
+    margin-bottom:5px; 
+}
+.sale_box div p{
+    line-height:24px;
+    text-indent:10px;
+}
+
+.sale_box div:first-child{
+    background-color: #f2f2f2;
+}
+
+/* 新书上架 */
+#newbook{
+    margin-top:25px;
+}
+.newbook_left{
+    width:904px;
+    height:504px;
+}
+
+.newbook_left>p{
+    border-bottom:6px solid #f60;
+}
+
+.newbook_left p span{
+    padding:8px;
+}
+
+.nbleft_box{
+    border: 1px solid #e6e6e6;
+   
+    border-top:0;
+}
+
+.nbleft_box div{
+    float:left;
+    width:160px;
+    height:220px;
+    margin:15px 7px 15px 13px;
+    line-height:22px;
+
+}
+
+/* newbook右边盒子 */
+
+.newbook_right{
+
+    width:284px;
+    height:501px;
+    border:1px solid #e6e6e6;
+    margin-top:38px;
+    box-sizing: border-box;;
+}
+
+.newbook_right h2{
+    background-color: #93d46f;
+    line-height:38px;
+    text-indent:8px;
+    margin-bottom:5px;
+}
+
+
+
+.newbook_right ul li{
+    margin-left:20px;
+    border-bottom:1px solid #e6e6e6;
+    padding-bottom:15px;
+    width:262px;
+    /* height:166px; */
+    height:48px;
+    position:relative;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+
+.newbook_right ul li:first-child{  
+    height:166px;
+}
+
+.newbook_right ul li:last-child{  
+    border:0;
+}
+
+
+.newbook_right ul li p:first-child{
+   margin:0 0 0 5px;
+   
+}
+
+.newbook_right ul li p:last-child{
+    line-height:18px;
+    width:126px;
+    text-align: justify;
+    margin:28px 0 0 8px
+   
+}
+
+.newbook_right .jiaobiao{
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:500;
+    padding:2px;
+    background-color: tomato;
+    width:18px;
+    height:18px;
+    text-align:center;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+/* 独家提供板块 */
+#the_one{
+    margin-top:25px;
+}
+
+.the_one_title{
+    border-bottom:6px solid #f60;
+    box-sizing: border-box;
+    line-height:36px;
+}
+
+
+.the_one_title>div>span{
+    display:inline-block;
+    width:42px;
+    height:36px;
+    background-color: #f60;
+}
+
+.the_one_title ul li{
+    float:left;
+    width:98px;
+    line-height:36px; 
+}
+
+.the_one_title ul li.cor{
+    background-color: #f60;
+    color:white;
+}
+
+
+/* 独家提供下方轮播图 */
+.the_one_lunbo{
+    display:none;
+}
+
+body .disb{
+    display:block;
+}
+
+.the_one_lunbo ul:first-child  div{
+    float:left;
+    width:170px;
+    height:220px;
+    margin:0 0 0 30px;
+}
+
+.the_one_lunbo ul:first-child  div img{
+    width:150px !important;
+    height:150px !important;
+
+}
+
+.the_one_lunbo .controls{
+    
+    bottom:0px !important;
+   
+}
+
+
+
+/* 猜你喜欢板块 */
+#youlike{
+    margin-top:25px;
+    padding-bottom:10px;
+    border-bottom:1px solid #e6e6e6;
+    height:533px;
+    box-sizing: border-box;
+    
+}
+
+.youlike_title{
+    border-bottom:6px solid #f60;
+    box-sizing: border-box;  
+    line-height:36px;
+}
+
+.youlike_title>div>span{
+    display:inline-block;
+    width:42px;
+    height:36px;
+    background-color: #f60;
+}
+
+
+#youlike .youlike_box div{
+float:left;
+width:170px;
+height:220px;
+margin:15px 0 0 30px;
+line-height:20px;
+}
+
+/* .youlike_box{
+    display:none;
+} */
+
+.youlike_title div a{
+    color: #468bfd;
+    line-height:36px;
+}
+
+#youlike .box{
+    position:relative;
+    height:485px;
+    overflow: hidden;
+    
+}
+
+#youlike .lunbo_box{
+    position:absolute;
+    top:0px;
+    left:0px;
+   
+}
+
+/* 精选 */
+#choose{
+    margin-top:25px;
+}
+
+#choose ul li{
+    width:200px;
+    height:122px;
+    float:left;
+}
+#choose  li p{
+    line-height:22px;
+}
+
+#choose  li p:last-child{
+background-color: red;
+color:white;
+height:20px;
+border-radius: 10px;
+line-height:20px;
+text-align:center;
+}
+
+#choose ul li img{
+    width:90px;
+    height:100px;
+}

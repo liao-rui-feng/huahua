@@ -1,0 +1,110 @@
+.headtxt{
+    position:relative;
+}
+
+.headtxt p:first-child{
+    text-indent: 200px;
+    line-height:84px;
+}
+
+.headtxt p:last-child{
+    position:absolute;
+    top:38px;
+    left:832px;
+
+}
+
+/* 表单验证内容区 */
+.form_box{
+    width:400px;
+    height:603px;
+    margin:50px auto;
+}
+
+.form_box div input{
+    width:400px;
+    height:44px;
+    outline: none;
+    border:1px solid #e6e6e6;
+    box-sizing: border-box;
+    text-indent:128px;
+    font-size:16px;
+    
+}
+.form_box div{
+position:relative;
+
+
+}
+.form_box div span{
+    font-size:22px;
+    position:absolute;
+    top:11px;
+    left:11px;
+}
+
+.form_box p{
+    position:relative;
+    margin-bottom:15px;
+    line-height:40px;
+}
+
+input::-webkit-input-placeholder{
+    color:#ccc;
+}
+
+.form_box .yanzhengma{
+    position:relative;
+}
+.form_box .yanzhengma a:last-child{
+    position:absolute;
+    top:4px;
+    left:270px;
+    width:124px;
+    height:36px;
+    background-color:#1a83e5;
+    color:white;
+    text-align:center;
+    line-height:36px;
+    font-size:28px;
+}
+
+.form_box div:last-child input{
+    font-size:28px;
+    text-align:center;
+    text-indent: 0px;
+}
+.form_box .shouji{
+    position:relative
+}
+.form_box .shouji a:last-child{
+    position:absolute;
+    top:4px;
+    left:270px;
+    width:124px;
+    height:36px;
+    text-align:center;
+    line-height:36px;
+    font-size:16px;
+    color:#4d4d4d;
+    background-color:#e6e6e6;
+
+
+}
+
+label.error {
+    position: absolute;
+    left: 7px;
+    top: 50px;
+    color: red;
+}
+
+#shouji-error{
+    left:277px;
+    top:50px;
+}
+
+#xieyi-error{
+    left:13px;
+    top:18px;
+}

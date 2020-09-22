@@ -1,0 +1,142 @@
+/* 头部样式 */
+header{
+    height:112px;
+    border-bottom:1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+header .top{
+    height:28px;
+    line-height:28px;
+    background-color: #101010;
+}
+
+header .top>div{
+    position:relative;
+}
+
+header .top h1 {
+    margin:0px;
+    }
+
+
+header .top h1 a{
+position:absolute;
+top:0px;
+}
+header .top h1 img{
+    height:112px;
+    width:200px;
+    }
+
+header .top .txturl{
+    color: #e6e6e6;
+    font-size:18px;
+    text-indent:200px;
+  
+}
+
+header .top .logintxtbox{
+    color:#bfbfbf;
+}
+
+header .top .logintxtbox a{
+    color:#f60;
+}
+
+
+
+
+header .topsearch{
+    padding-top:4px;
+}
+
+
+header .topsearch .searchbox{
+    width:440px;
+    height:36px;
+    border:2px solid #f60;
+    box-sizing:border-box;
+    margin-right:36px;
+}
+
+header .topsearch .searchbox input:first-child{
+width:388px;
+padding:0px;
+height:32px;
+text-indent:6px;
+font-size:16px;
+
+}
+
+header .topsearch .searchbox input:last-child{
+width:48px;
+padding:0px;
+height:32px;
+background: url(../imgs/bgicon.png) no-repeat 0 -2px;
+
+
+}
+
+
+header .topsearch .buybox {
+    width:200px;
+    height:36px;
+}
+
+header .topsearch .buybox a:first-child{
+width:100px;
+height:36px;
+background: url(../imgs/bgicon.png) no-repeat #f60;
+background-position-y: -42px;
+text-indent:36px;
+line-height:36px;
+color:white;
+
+}
+
+header .topsearch .buybox a:first-child i{
+
+font-style:normal;
+
+}
+
+header .topsearch .buybox a:last-child{
+    width:100px;
+    height:36px;
+    color:#808080;
+    line-height:36px;
+    background-color: #ebebeb;
+    text-align:center;
+    border:#ccc solid 1px;
+    box-sizing: border-box;
+
+    }
+
+
+    /* 头部第三排 */
+ header .nav{
+height:44px;
+
+ }   
+
+
+ header ul{
+line-height:44px;
+padding:0px;
+margin-right:100px;
+
+ }
+
+
+ header ul li{
+float:left;
+margin-left:30px;
+font-weight:bold;
+
+ }
+
+ header ul li a{
+color:#323232;
+
+ }
